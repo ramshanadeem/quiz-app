@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+body{
+    margin: 8%;
+}
+#paper{
+    margin: 0px auto;
+    margin-top: 20px;
+    padding: 10px 40px 40px 40px;
+    background-color: #cc0099;
+    font-size: 20px;
+    color: white;
+    width: 50%;
+}
+button{
+    background-color: yellowgreen;
+    color: #cc0099;
+    border:none;
+    padding: 12px 30px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 35%;
+}
+h1{
+    text-align: center;
+    color: #003300;
+    background-color:  lightskyblue;
+
+}
+</style>
+
+
+<body style="background-color: #003300;">
+    
+<h1 id="paper_status"> QUIZ APPLICATION SHEET</h1>
+<div id="paper">
+
+<div>
+    <p style="text-align: center;background-color: black;">JAVA QUIZ </p>
+    <fieldset>
+        <p>question 01:"In java arrays are:"</p>
+        <input name="ques-no 01" id="qno1-1" type="radio"  >  a: "objects"</input><br>
+        <input name="ques-no 01" id="qno1-2" type="radio"> b:"primitive type"</input><br>
+        <input name="ques-no 01" id="qno1-3" type="radio">  c:"none of the above"</input><br>
+    </fieldset>
+ </div>    
+
+ <div>
+    <fieldset>
+        <p>  question 02:"command to execute compiled java program is :"</p>
+        <input name="ques-no 02" id="qno2-1" type="radio"  > a: "javap" </input><br>
+        <input name="ques-no 02" id="qno2-2" type="radio">  b:" javac"</input><br>
+        <input name="ques-no 02" id="qno2-3" type="radio"> c:"java"  </input><br>
+    </fieldset>
+ </div>
+
+
+ <div>
+    <fieldset>
+        <p>  question 03:"inner classes are:"</p>
+        <input name="ques-no 03" id="qno3-1" type="radio"  > a: "class" </input><br>
+        <input name="ques-no 03" id="qno3-2" type="radio">  b:"anonymous classes" </input><br>
+        <input name="ques-no 03" id="qno3-3" type="radio"> c:"child classes"  </input><br>
+    </fieldset>
+ 
+ </div>
+
+
+ <div>
+ <fieldset>
+    <p>  question 04:"the command java is used to:"  </p>
+    <input name="ques-no 04" id="qno4-1" type="radio"  >a: "debug the program"  </input><br>
+    <input name="ques-no 04" id="qno4-2" type="radio"> b:"compile the program" </input><br>
+    <input name="ques-no 04" id="qno4-3" type="radio">  c:"execute the program"  </input><br>
+</fieldset>
+</div>
+
+<div>
+    <fieldset>
+       <p>   question 05:"which is the following is true for java"  </p>
+       <input name="ques-no 05" id="qno5-1" type="radio"  > a: "is object oriented abd interpreted"</input><br>
+       <input name="ques-no 05" id="qno5-2" type="radio">b:"is not robust",</input><br>
+       <input name="ques-no 05" id="qno5-3" type="radio">  c:"is a super set of script"  </input><br>
+   </fieldset>
+   </div>
+
+
+<fieldset>
+    <div>
+        <button  onclick="check()">Result</button>
+    </div>
+</fieldset>
+
+ 
+ </div>
+</body>
+<script src="app.js"></script>
+</html>
